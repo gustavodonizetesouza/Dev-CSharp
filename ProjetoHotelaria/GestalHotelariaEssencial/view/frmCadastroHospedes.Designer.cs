@@ -85,6 +85,12 @@
             this.txtNomeCliente = new System.Windows.Forms.TextBox();
             this.tabMovimento = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.gbAcoes = new System.Windows.Forms.GroupBox();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.btnNovo = new System.Windows.Forms.Button();
+            this.groupBoxInformacoes = new System.Windows.Forms.GroupBox();
             this.panel1.SuspendLayout();
             this.tabControl.SuspendLayout();
             this.tabLista.SuspendLayout();
@@ -95,6 +101,7 @@
             this.groupBox2.SuspendLayout();
             this.tabMovimento.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.gbAcoes.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -716,11 +723,88 @@
             this.dataGridView1.Size = new System.Drawing.Size(970, 389);
             this.dataGridView1.TabIndex = 1;
             // 
+            // gbAcoes
+            // 
+            this.gbAcoes.Controls.Add(this.btnSalvar);
+            this.gbAcoes.Controls.Add(this.btnCancelar);
+            this.gbAcoes.Controls.Add(this.btnEditar);
+            this.gbAcoes.Controls.Add(this.btnNovo);
+            this.gbAcoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbAcoes.Location = new System.Drawing.Point(528, 499);
+            this.gbAcoes.Name = "gbAcoes";
+            this.gbAcoes.Size = new System.Drawing.Size(461, 65);
+            this.gbAcoes.TabIndex = 45;
+            this.gbAcoes.TabStop = false;
+            this.gbAcoes.Text = "Ações";
+            // 
+            // btnSalvar
+            // 
+            this.btnSalvar.Enabled = false;
+            this.btnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvar.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvar.Image")));
+            this.btnSalvar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalvar.Location = new System.Drawing.Point(345, 18);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(107, 38);
+            this.btnSalvar.TabIndex = 27;
+            this.btnSalvar.Text = "     Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = true;
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Enabled = false;
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelar.Image")));
+            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCancelar.Location = new System.Drawing.Point(232, 18);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(107, 38);
+            this.btnCancelar.TabIndex = 28;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
+            this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEditar.Location = new System.Drawing.Point(119, 18);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(107, 38);
+            this.btnEditar.TabIndex = 29;
+            this.btnEditar.Text = "    Editar";
+            this.btnEditar.UseVisualStyleBackColor = true;
+            // 
+            // btnNovo
+            // 
+            this.btnNovo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNovo.Image = ((System.Drawing.Image)(resources.GetObject("btnNovo.Image")));
+            this.btnNovo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNovo.Location = new System.Drawing.Point(6, 18);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(107, 38);
+            this.btnNovo.TabIndex = 30;
+            this.btnNovo.Text = "    Novo";
+            this.btnNovo.UseVisualStyleBackColor = true;
+            // 
+            // groupBoxInformacoes
+            // 
+            this.groupBoxInformacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBoxInformacoes.Location = new System.Drawing.Point(3, 499);
+            this.groupBoxInformacoes.Name = "groupBoxInformacoes";
+            this.groupBoxInformacoes.Size = new System.Drawing.Size(515, 65);
+            this.groupBoxInformacoes.TabIndex = 44;
+            this.groupBoxInformacoes.TabStop = false;
+            this.groupBoxInformacoes.Text = "Informações Adicionais";
+            // 
             // frmCadastroHospedes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(996, 568);
+            this.Controls.Add(this.gbAcoes);
+            this.Controls.Add(this.groupBoxInformacoes);
             this.Controls.Add(this.tabControl);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -744,6 +828,7 @@
             this.groupBox2.PerformLayout();
             this.tabMovimento.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.gbAcoes.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -806,5 +891,11 @@
         private System.Windows.Forms.TextBox txtNomeCliente;
         private System.Windows.Forms.TabPage tabMovimento;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.GroupBox gbAcoes;
+        private System.Windows.Forms.Button btnSalvar;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnNovo;
+        private System.Windows.Forms.GroupBox groupBoxInformacoes;
     }
 }
