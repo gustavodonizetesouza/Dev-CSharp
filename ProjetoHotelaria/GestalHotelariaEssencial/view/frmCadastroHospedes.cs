@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GestalHotelariaEssencial
+namespace GestalHotelariaEssencial.view
 {
-    public partial class Form1 : Form
+    public partial class frmCadastroHospedes : Form
     {
-        public Form1()
+        public frmCadastroHospedes()
         {
             InitializeComponent();
         }

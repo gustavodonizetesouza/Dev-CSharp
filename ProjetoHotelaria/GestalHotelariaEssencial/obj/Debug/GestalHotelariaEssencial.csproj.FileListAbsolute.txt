@@ -1,0 +1,12 @@
+C:\Desenvolvimento\Dev-CSharp\ProjetoHotelaria\GestalHotelariaEssencial\bin\Debug\GestalHotelariaEssencial.exe.config
+C:\Desenvolvimento\Dev-CSharp\ProjetoHotelaria\GestalHotelariaEssencial\bin\Debug\GestalHotelariaEssencial.exe
+C:\Desenvolvimento\Dev-CSharp\ProjetoHotelaria\GestalHotelariaEssencial\bin\Debug\GestalHotelariaEssencial.pdb
+C:\Desenvolvimento\Dev-CSharp\ProjetoHotelaria\GestalHotelariaEssencial\obj\Debug\GestalHotelariaEssencial.csproj.AssemblyReference.cache
+C:\Desenvolvimento\Dev-CSharp\ProjetoHotelaria\GestalHotelariaEssencial\obj\Debug\GestalHotelariaEssencial.csproj.SuggestedBindingRedirects.cache
+C:\Desenvolvimento\Dev-CSharp\ProjetoHotelaria\GestalHotelariaEssencial\obj\Debug\GestalHotelariaEssencial.view.frmCadastroHospedes.resources
+C:\Desenvolvimento\Dev-CSharp\ProjetoHotelaria\GestalHotelariaEssencial\obj\Debug\GestalHotelariaEssencial.frmLogin.resources
+C:\Desenvolvimento\Dev-CSharp\ProjetoHotelaria\GestalHotelariaEssencial\obj\Debug\GestalHotelariaEssencial.Properties.Resources.resources
+C:\Desenvolvimento\Dev-CSharp\ProjetoHotelaria\GestalHotelariaEssencial\obj\Debug\GestalHotelariaEssencial.csproj.GenerateResource.cache
+C:\Desenvolvimento\Dev-CSharp\ProjetoHotelaria\GestalHotelariaEssencial\obj\Debug\GestalHotelariaEssencial.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\Dev-CSharp\ProjetoHotelaria\GestalHotelariaEssencial\obj\Debug\GestalHotelariaEssencial.exe
+C:\Desenvolvimento\Dev-CSharp\ProjetoHotelaria\GestalHotelariaEssencial\obj\Debug\GestalHotelariaEssencial.pdb
