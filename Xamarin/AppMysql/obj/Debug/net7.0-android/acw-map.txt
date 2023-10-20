@@ -1,0 +1,3 @@
+AppMysql.MainActivity, AppMysql;crc6473c2114f65c91ded.MainActivity
+AppMysql.MainActivity;crc6473c2114f65c91ded.MainActivity
+appmysql.MainActivity;crc6473c2114f65c91ded.MainActivity
