@@ -1,0 +1,7 @@
+1 - Extrair os arquivos
+
+2 - Executar o GestaoEssencial.exe
+
+3 - Usuário: teste
+    Senha: 123456
+
